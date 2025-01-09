@@ -173,7 +173,8 @@ class Feynman:
         plt.title('delayed velocity electric field, one accelerating charge,\
         with boundaries', fontsize= 8)
         plt.ylabel('km',fontsize=5)
-        plt.xlabel('E[v*m^-1]',fontsize=5)  
+        plt.xlabel('E[v*m^-1]',fontsize=5)
+        plt.savefig('spriteelectricfieldgraph.png')
         plt.show()
         
             
